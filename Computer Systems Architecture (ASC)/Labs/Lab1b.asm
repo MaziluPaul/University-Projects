@@ -5,7 +5,6 @@ data SEGMENT
 
 a db 4
 b db 2
-inetrm db ?
 rez dw ?
 
 data ENDS
@@ -42,6 +41,10 @@ mul b
 add AX,BX
 ; AX = a*b + a*a -works
 
+mov BX,AX
+mov AX,CX
+cwd
+idiv BX
 
 mov rez, AX
 mov AX, 4C00h
@@ -50,7 +53,6 @@ int 21h
 
 code ENDS
 END start
-
 
 
 
