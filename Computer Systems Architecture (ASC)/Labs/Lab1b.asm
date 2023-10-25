@@ -3,7 +3,7 @@ ASSUME cs: code, ds:data
 
 data SEGMENT
 
-a db 4
+a db 4 ; try a = 4 and b = 2
 b db 2
 rez dw ?
 
@@ -15,36 +15,44 @@ start:
 mov AX, data
 mov DS, AX
 
-mov AL, 3
-mul a
-;AX = a*3
-
-mov BX,AX
-mov AL, 5
-mul b
-mul b
-;AX = b*b*5
-
-add AX,BX
-;AX = a*3 + b*b*5 -works
-
-mov CX,AX
 mov AL, a
-mul a
+imul b
+; AX = a*b
+mov CX, AX
+; CX = a*b
+
+mov AL, a
+imul a
 ; AX = a*a
 
-mov BX,AX
-mov AL,a
-mul b
-; AX = a*b
+add AX, CX
+; AX = a*a+a*b
+mov CX, AX
 
-add AX,BX
-; AX = a*b + a*a -works
+mov AL, 5
+imul b
+imul b
+; AX = b*b*5
 
-mov BX,AX
-mov AX,CX
+mov BX, AX
+; BX = b*b*5
+
+mov AL, 3
+imul a
+; AX = a*3
+
+add AX, BX
+; AX = a*3+b*b*5
 cwd
-idiv BX
+idiv CX
+
+;AX = (a*3+b*b*5)/(a*a+a*b)
+mov AH, 0
+
+mov BL, a
+sub AX, BX
+mov BL, b
+sub AX, BX
 
 mov rez, AX
 mov AX, 4C00h
