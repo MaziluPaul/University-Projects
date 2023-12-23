@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3c59ec4-eeb1-4b75-b0c1-05f2d6fc7ee3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/a2-MaziluPaul.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pacienti.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pacienti.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programari.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/IEntityFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Pacient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/PacientFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Programare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/ProgramareFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/AbstractRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/BinaryFileRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/IDbRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/IRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/MemoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/PacientDbRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ProgramareDbRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/TextFileRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Settings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/BinaryFileRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/MemoryRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/PacientFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/PacientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/ProgramareFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/ProgramareTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/ServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/TextFileRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/UI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/DuplicateObjectException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/ObjectNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/RepositoryExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/Validators.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2ZJPzzHUdqVjJ1NdjEMHCztXPo9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "build.tools",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3c59ec4-eeb1-4b75-b0c1-05f2d6fc7ee3" name="Changes" comment="" />
+      <created>1702137475987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702137475987</updated>
+      <workItem from="1702137479650" duration="80000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
